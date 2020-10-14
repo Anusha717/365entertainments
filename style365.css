@@ -1,0 +1,364 @@
+.body{
+padding:0;
+margin:0;	
+}	
+.header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #847777;
+}
+li {
+  float: left;
+  
+}
+.header img{
+	padding:10px;
+  box-shadow: 15px -10px 10px #c374c0;
+  border-radius:5px;
+   margin-top:5px;
+  margin-bottom:5px;
+}
+img{
+	background:white;
+	
+}
+.header #menu{
+	padding-top:17px;
+}
+
+li a {
+  display: block; 
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  display:inline;
+}
+
+
+li a:hover {
+  //background-color:white;
+  text-decoration: none;
+  color:#000;
+  cursor:pointer;
+}
+.carousel-inner img {
+	
+	max-height:400px;
+	margin-bottom:10px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  border-radius:4px;
+   padding-left:10px;
+}
+.dropdown .dropbtn {
+	cursor: pointer;
+	font-size: 16px;
+	 border: none;
+   outline:none;
+  padding: 5px 42px;
+ 
+  margin:20px 5px 5px 45px;
+  width:160px;
+  height:38px;
+   background-color: gold;
+ font-weight:bolder;
+  text-align:left;
+}
+.dropdown-content {
+  display:none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  margin-left:45px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown:hover .dropdown-content {
+  display: block;
+  padding-left:30px;
+}
+
+
+
+
+
+
+h5{
+	padding:10px;
+	margin:5px 20px;
+	color:white;
+	border-bottom:2px solid #847777;
+}
+
+
+.container {
+  position: relative;
+ max-width: 1500px; /* Maximum width */
+  margin: 0 10px; /* Center it */
+  margin-bottom:20px;
+  margin-left:38px;
+}
+
+
+.container .action1 {
+  position: absolute; 
+ 
+  /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 15%; /* Full width */
+  padding: 10px; /* Some padding */
+  text-align:center;
+}
+
+.container .action2 {
+  position: absolute; 
+  padding: 10px;
+   margin: 0 202px ;
+  /* Position the background text */
+  margin: 0 202px ;
+  /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+   background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 15%; /* Full width */
+   /* Some padding */
+   text-align:center;
+}
+
+.container .action3{
+  position: absolute; 
+  padding: 10px;
+   margin: 0 405px ;
+  /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 15%; /* Full width */
+   /* Some padding */
+   text-align:center;
+}
+
+.container .action4{
+  position: absolute; 
+  padding: 10px;
+  margin: 0 610px ;
+  bottom: 0; 
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 15%; 
+  text-align:center;
+}
+
+.container .action5{
+  position: absolute; 
+  padding: 10px;
+  margin: 0 818px ;
+  bottom: 0; 
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 15%; 
+  text-align:center;
+}
+
+.container .action6{
+  position: absolute; 
+  padding: 10px;
+  margin: 0 1020px ;
+  bottom: 0; 
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 15%; 
+  text-align:center;
+}
+
+.container .drama1 {
+  position: absolute; 
+ 
+  /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 15%; /* Full width */
+  padding: 10px; /* Some padding */
+  text-align:center;
+}
+
+.container .drama2 {
+  position: absolute; 
+  padding: 10px;
+   margin: 0 202px ;
+  /* Position the background text */
+  margin: 0 202px ;
+  /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+   background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 15%; /* Full width */
+   /* Some padding */
+   text-align:center;
+}
+
+.container .drama3{
+  position: absolute; 
+  padding: 10px;
+   margin: 0 405px ;
+  /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 15%; /* Full width */
+   /* Some padding */
+   text-align:center;
+}
+
+.container .drama4{
+  position: absolute; 
+  padding: 10px;
+  margin: 0 610px ;
+  bottom: 0; 
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 15%;
+text-align:center;  
+}
+
+.container .drama5{
+  position: absolute; 
+  padding: 10px;
+  margin: 0 818px ;
+  bottom: 0; 
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 15%; 
+  text-align:center;
+}
+
+.container .drama6{
+  position: absolute; 
+  padding: 10px;
+  margin: 0 1020px ;
+  bottom: 0; 
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 15%; 
+  text-align:center;
+}
+
+.container .thriller1 {
+  position: absolute; 
+ 
+  /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 15%; /* Full width */
+  padding: 10px; /* Some padding */
+  text-align:center;
+}
+
+.container .thriller2 {
+  position: absolute; 
+  padding: 10px;
+   margin: 0 202px ;
+  /* Position the background text */
+  margin: 0 202px ;
+  /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+   background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 15%; /* Full width */
+   /* Some padding */
+   text-align:center;
+}
+
+.container .thriller3{
+  position: absolute; 
+  padding: 10px;
+   margin: 0 405px ;
+  /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 15%; /* Full width */
+   /* Some padding */
+   text-align:center;
+}
+
+.container .thriller4{
+  position: absolute; 
+  padding: 10px;
+  margin: 0 610px ;
+  bottom: 0; 
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 15%; 
+  text-align:center;
+}
+
+.container .thriller5{
+  position: absolute; 
+  padding: 10px;
+  margin: 0 818px ;
+  bottom: 0; 
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 15%; 
+  text-align:center;
+}
+
+.container .thriller6{
+  position: absolute; 
+  padding: 10px;
+  margin: 0 1020px ;
+  bottom: 0; 
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 15%; 
+  text-align:center;
+  
+}
+footer {
+   margin-top:100px;
+  padding: 3px;
+  padding-top:20px;
+  list-style-type:none;
+  background-color: #847777;
+  color: white;
+}
+footer img{
+	box-shadow: 15px -10px 10px #c374c0;
+  border-radius:5px;
+}
